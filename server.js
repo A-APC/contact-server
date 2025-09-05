@@ -1,17 +1,3 @@
-{
-  "name": "contact-server",
-  "version": "1.0.0",
-  "main": "server.js",
-  "type": "module",
-  "scripts": {
-    "start": "node server.js"
-  },
-  "dependencies": {
-    "express": "^4.19.2",
-    "nodemailer": "^6.9.11",
-    "cors": "^2.8.5"
-  }
-}
 import express from "express";
 import nodemailer from "nodemailer";
 import cors from "cors";
